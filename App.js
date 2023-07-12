@@ -1,13 +1,14 @@
-import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
+import { NavigationContainer } from "@react-navigation/native";
+import { StyleSheet, Text, View, StatusBar } from "react-native";
 import firebase from "./src/services/firebaseConnection";
+import Routes from "./src/routes";
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <NavigationContainer>
+      <StatusBar backgroundColor="#131313" barStyle="light-content" />
+      <Routes />
+    </NavigationContainer>
   );
 }
 
