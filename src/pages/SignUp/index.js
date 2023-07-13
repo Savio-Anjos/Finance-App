@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import { View, Text, Platform } from "react-native";
+import { AuthContext } from "../../contexts/auth";
 
 import {
   Background,
@@ -15,6 +16,9 @@ export default function SignUp() {
   const [nome, setNome] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const { user } = useContext(AuthContext);
+
+  console.log(user);
 
   return (
     <Background>
