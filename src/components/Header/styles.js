@@ -10,7 +10,7 @@ export const Container = styled.View`
   height: 50px;
 `;
 
-export const ButtonMenu = styled.TouchableWithoutFeedback`
+export const ButtonMenu = styled.TouchableOpacity`
   justify-content: center;
   align-items: center;
 `;
