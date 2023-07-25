@@ -12,7 +12,7 @@
 Esse projeto está utilizando as seguintes tecnologias:
 
 - [ReactNative](https://reactnative.dev/)
-- [Expo](hhttps://expo.dev/)
+- [Expo](https://expo.dev/)
 
 ## ⚙️ Como funciona?
 
