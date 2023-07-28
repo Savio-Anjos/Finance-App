@@ -13,6 +13,7 @@ Esse projeto está utilizando as seguintes tecnologias:
 
 - [ReactNative](https://reactnative.dev/)
 - [Expo](https://expo.dev/)
+- [StyledComponents](https://styled-components.com/)
 
 ## ⚙️ Como funciona?
 
